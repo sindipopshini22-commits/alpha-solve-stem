@@ -1,0 +1,1 @@
+# Load NVM environment export NVM_DIR="$HOME/.nvm" [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # Navigate and run cd /home/cts/Desktop/stem-calculator echo "🚀 Launching STEM Vision..." npm run dev -- --open || { echo "❌ Error starting the server." echo "Press any key to close..." read -n 1 }
